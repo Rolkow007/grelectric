@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Electric GR – Gyors Villanyszerelés</title>
+    <style>
+        :root {
+            --primary: #36b2b0;
+            --primary-dark: #1e7f7d;
+            --dark: #102323;
+            --light: #f6fbfb;
+            --danger: #ff3b3b;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+            background: var(--light);
+            color: var(--dark);
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            color: white;
+            text-align: center;
+            padding: 3.5rem 1rem 4rem;
+            position: relative;
+        }
+
+        header img {
+            max-width: 160px;
+            margin-bottom: 1rem;
+        }
+
+        .sos {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            background: var(--danger);
+            color: white;
+            padding: 0.4rem 0.8rem;
+            border-radius: 999px;
+            font-weight: bold;
+            font-size: 0.85rem;
+        }
+
+        header h1 {
+            font-size: 2.4rem;
+            margin: 0.5rem 0;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.95;
+        }
+
+        .cta {
+            display: inline-block;
+            margin-top: 1.8rem;
+            padding: 1rem 2.2rem;
+            background: white;
+            color: var(--primary-dark);
+            font-size: 1.25rem;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 8px;
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+        }
+
+        section {
+            padding: 3.5rem 1rem;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 2rem;
+            font-size: 2rem;
+        }
+
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+            gap: 1.8rem;
+        }
+
+        .card {
+            background: white;
+            padding: 1.8rem 1.5rem;
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+            font-weight: 600;
+        }
+
+        .highlight {
+            background: var(--primary);
+            color: white;
+            text-align: center;
+            border-radius: 14px;
+            padding: 3rem 1.5rem;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+        }
+
+        footer {
+            background: #0b1a1a;
+            color: #cfdede;
+            text-align: center;
+            padding: 1.8rem 1rem;
+            font-size: 0.9rem;
+        }
+
+        .fixed-call {
+            position: fixed;
+            bottom: 1rem;
+            right: 1rem;
+            background: var(--danger);
+            color: white;
+            padding: 0.9rem 1.4rem;
+            border-radius: 999px;
+            font-weight: bold;
+            text-decoration: none;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <!-- LOGÓ IDE -->
+        <img src="/0.0.7_Rolkow/GRElectric/sources/white_logo_transparent_background.png" alt="Electric GR logo" />
+        <h1>SOS Gyorsszerviz BUDAPEST</h1>
+        <p>Váratlan áramszünet, leveri a biztosítékot, szikrázik a konnektor? <br> Gyorsszolgálatunkkal rövid időn belül a helyszínre érkezünk, és szakszerűen elhárítjuk a hibát.
+        <br>Sürgős esetekben is megbízható, korrekt megoldást nyújtunk.</p>
+        <a class="cta" href="tel:+36302243627">📞 Azonnali hívás</a>
+    </header>
+
+    <section>
+        <h2>Villanyszerelő Budapest – Gyors segítség a hét minden napján</h2>
+        <p>Az <strong>Electric GR villanyszerelés</strong> gyors és megbízható megoldást kínál Budapesten felmerülő
+            elektromos problémákra. Ha zárlat, biztosíték leoldás, konnektor vagy világítás meghibásodás jelentkezik,
+            rövid határidővel állunk rendelkezésére. Célunk a gyors hibaelhárítás, korrekt árakon, felesleges várakozás
+            nélkül.</p>
+
+        <h3>Szolgáltatásaink</h3>
+        <div class="services">
+            <div class="card">⏱️ SOS – azonnali kiszállás</div>
+            <div class="card">⚡ Gyors hibaelhárítás</div>
+            <div class="card">🔌 Zárlat, biztosíték probléma</div>
+            <div class="card">💡 Lámpák, kapcsolók javítása</div>
+            <div class="card">🔧 Konnektor csere, javítás</div>
+            <div class="card">🏠 Lakás villamos hálózat kiépítés/felújítás</div>
+
+        </div>
+    </section>
+
+    <section class="highlight">
+        <h2>Miért minket válasszon?</h2>
+        <p>✔ Gyors reakcióidő<br>
+            ✔ Megbízható, korrekt árak<br>
+            ✔ Tapasztalt villanyszerelő csapat</p>
+    </section>
+
+    <section>
+        <h2>Kapcsolat</h2>
+        <p><strong>Telefon:</strong> +36 30 224 3627</p>
+        <p><strong>E-mail:</strong></p><a class="email" href="mailto:info@grelectric.hu"> info@grelectric.hu</a>
+        <p><strong>Kiszállás:</strong> Budapest területén 60-120 percen belül</p>
+        <p><strong>Nyitvatartás:</strong> minden nap (hétvégén és ünnepnapokon is!) 8:00–20:00</p>
+        <a class="cta" href="tel:+36203505642">📞 Hívjon most</a>
+    </section>
+
+    <footer>
+        © 2025 Electric GR – Villanyszerelés | info@grelectric.hu
+    </footer>
+
+    <a class="fixed-call" href="tel:+36203505642">📞 Gyors hívás</a>
+
+</body>
+
+</html>
