@@ -125,6 +125,31 @@
             text-decoration: none;
             box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
         }
+
+
+        .prices li {
+            background: white;
+            list-style: none;
+            margin: 0.8rem 0;
+            padding: 1rem 1.5rem;
+            border-radius: 10px;
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+        }
+
+        .services ul {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .email {
+            color: var(--primary-dark);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .email:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 
@@ -132,7 +157,7 @@
 
     <header>
         <!-- LOGÓ IDE -->
-        <img src="sources/white_logo_transparent_background.png" alt="Electric GR logo" />
+        <img src="/0.0.7_Rolkow/GRElectric/sources/white_logo_transparent_background.png" alt="Electric GR logo" />
         <h1>SOS Gyorsszerviz BUDAPEST</h1>
         <p>Váratlan áramszünet, leveri a biztosítékot, szikrázik a konnektor? <br> Gyorsszolgálatunkkal rövid időn belül a helyszínre érkezünk, és szakszerűen elhárítjuk a hibát.
         <br>Sürgős esetekben is megbízható, korrekt megoldást nyújtunk.</p>
@@ -141,23 +166,49 @@
 
     <section>
         <h2>Villanyszerelő Budapest – Gyors segítség a hét minden napján</h2>
-        <p><strong>Electric GR villanyszerelés</strong> gyors és megbízható megoldást kínál Budapesten felmerülő
+        <p>Cégünk gyors és megbízható megoldást kínál a felmerülő
             elektromos problémákra. Ha zárlat, biztosíték leoldás, konnektor vagy világítás meghibásodás jelentkezik,
             rövid határidővel állunk rendelkezésére. Célunk a gyors hibaelhárítás, korrekt árakon, felesleges várakozás
-            nélkül.</p>
+            nélkül.
+        </p>
+        <p>Emellett vállaljuk - rövi határidővel - lakés teljes villamos hálózatának cseréjét, kiépítését. Vagy akár egy adott vezetékszakasz cseréjét, bővítését is. Legyen szó új áramkörök kiépítéséről, vagy elektromos készülékek (pl. főzőlap, sütő) garanciális bekötéséről, számíthat ránk!
+        </p>
 
         <h3>Szolgáltatásaink</h3>
         <div class="services">
-            <div class="card">⏱️ SOS – azonnali kiszállás</div>
-            <div class="card">⚡ Gyors hibaelhárítás</div>
-            <div class="card">🔌 Zárlat, biztosíték probléma</div>
+            <div class="card">⏱️ SOS – azonnali kiszállás - Gyors hibaelhárítás</div>
+            <div class="card">⚡ Túfeszültség védelem beépítése</div>
+            <div class="card">🪛 Zárlat, biztosíték probléma</div>
             <div class="card">💡 Lámpák, kapcsolók javítása</div>
-            <div class="card">🔧 Konnektor csere, javítás</div>
-            <div class="card">🏠 Lakás villamos hálózat kiépítés/felújítás</div>
+            <div class="card">🔌 Konnektor csere, javítás</div>
+            <div class="card">🏠 Teljes villamos hálózat felújítás</div>
+            <div class="card">🏠 Új áramkörök kiépítése</div>
+            <div class="card">⏲️ Elektromos főzőlap, sütő garanciális bekötése</div>
 
         </div>
     </section>
+    
+<section class="prices">
+    <h2>Árlista – Villanyszerelés Gyorsszerviz</h2>
+    <p>Az alábbi árak <strong>anyagköltség nélkül</strong> értendők, és tartalmazzák a kiérkezéstől számítottan 1 óra munka díját. Minden további megkezdett óra 10 000 Ft. Az anyagköltség a hiba jellegétől függ. Erről pontos tájékoztatást az előzetes telefonos egyeztetéskor, vagy a helyszíni szemle során tudunk adni.</p>
 
+    <div class="services">
+        <ul class="prices">
+            <li>⏱️ Kiszállás és hibakeresés - <strong>hétköznap</strong> 8:00-20:00 között: <strong>15.000 Ft</strong></li>
+            <li>⏱️ Kiszállás és hibakeresés - <strong>hétvégén és ünnepnapokon</strong> 8:00-20:00 között: <strong>20.000 Ft</strong></li>
+            <li>⏱️ Minden további - megkezdett - óra: <strong>10.000 Ft</strong></li>
+            <li>⏱️ Elektromos főzőlap, sütő garanciális bekötése: <strong>15.000 Ft</strong></li>
+            
+        </ul>
+        <!-- <div class="card">🔌 Kiszállási díj (Budapest):<br><strong>10 000 Ft-tól</strong></div>
+        <div class="card">⚡ Gyors hibaelhárítás:<br><strong>12 000 Ft / óra</strong></div>
+        <div class="card">💡 Lámpa, kapcsoló csere:<br><strong>8 000 Ft-tól</strong></div>
+        <div class="card">🧯 Biztosíték, zárlat javítás:<br><strong>10 000 Ft-tól</strong></div>
+        <div class="card">🏠 Lakossági villanyszerelés:<br><strong>egyedi árajánlat</strong></div>
+        <div class="card">⏱️ Gyorsszolgálat (8–20):<br><strong>felár nélkül</strong></div> -->
+    </div>
+</section>
+    
     <section class="highlight">
         <h2>Miért minket válasszon?</h2>
         <p>✔ Gyors reakcióidő<br>
@@ -167,18 +218,18 @@
 
     <section>
         <h2>Kapcsolat</h2>
-        <p><strong>Telefon:</strong> +36 30 224 3627</p>
-        <p><strong>E-mail:</strong></p><a class="email" href="mailto:info@grelectric.hu"> info@grelectric.hu</a>
-        <p><strong>Kiszállás:</strong> Budapest területén 60-120 percen belül</p>
-        <p><strong>Nyitvatartás:</strong> minden nap (hétvégén és ünnepnapokon is!) 8:00–20:00</p>
-        <a class="cta" href="tel:+36203505642">📞 Hívjon most</a>
+    📞 <a href="+36302243627"></a> +36 30 224 3627</p>
+    ✉️ <a class="email" href="mailto:info@grelectric.hu">info@grelectric.hu</a>
+        <p>⏱️ Budapest területén 60-120 percen belül</p>
+        <p>🕗 a hét minden napján (hétvégén és ünnepnapokon is!) 8:00–20:00</p>
+        <a class="cta" href="tel:+36302243627">📞 Hívjon most</a>
     </section>
 
     <footer>
         © 2025 Electric GR – Villanyszerelés | info@grelectric.hu
     </footer>
 
-    <a class="fixed-call" href="tel:+36203505642">📞 Gyors hívás</a>
+    <a class="fixed-call" href="tel:+36302243627">📞 Gyors hívás</a>
 
 </body>
 
