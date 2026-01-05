@@ -61,6 +61,7 @@
         .cta {
             display: inline-block;
             margin-top: 1.8rem;
+            margin-bottom: 1.8rem;
             padding: 1rem 2.2rem;
             background: white;
             color: var(--primary-dark);
@@ -88,6 +89,8 @@
             grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
             gap: 1.8rem;
         }
+
+
 
         .card {
             background: white;
@@ -127,19 +130,20 @@
             box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
         }
 
-
+       
         .prices li {
             background: white;
             list-style: none;
-            margin: 0.8rem 0;
+            margin: 1rem 0;
             padding: 1rem 1.5rem;
             border-radius: 10px;
             box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
         }
 
-        .services ul {
-            display: flex;
-            flex-direction: column;
+        .prices ul {
+            padding-left: 2rem;
+            padding-right: 2rem;
+    
         }
 
         .service-icons {
@@ -187,9 +191,12 @@
     <header>
         <img src="sources/white_logo_transparent_background.png" alt="GR Electric villanyszerelő Budapest" />
         <h1>Villanyszerelő BUDAPEST <br>SOS Gyorsszerviz</h1>
-        <p><strong>Váratlan áramszünet, leveri a biztosítékot, szikrázik a konnektor?</strong> <br> Gyorsszolgálatunkkal rövid időn belül a helyszínre érkezünk, és szakszerűen elhárítjuk a hibát.
+        
+        <p><strong>Váratlan áramszünet, leveri a biztosítékot, szikrázik a konnektor?</strong> 
+           <br> <a class="cta" href="tel:+36302243627">📞 Azonnali hívás</a>
+            <br> Gyorsszolgálatunkkal rövid időn belül a helyszínre érkezünk, és szakszerűen elhárítjuk a hibát.
         <br>Sürgős esetekben is megbízható, korrekt megoldást nyújtunk.</p>
-        <a class="cta" href="tel:+36302243627">📞 Azonnali hívás</a>
+        <!-- <a class="cta" href="tel:+36302243627">📞 Azonnali hívás</a> -->
     </header>
 
     <section>
@@ -197,10 +204,8 @@
         <p>Cégünk gyors és megbízható megoldást kínál a felmerülő
             elektromos problémákra. Ha zárlat, biztosíték leoldás, konnektor vagy világítás meghibásodás jelentkezik,
             rövid határidővel állunk rendelkezésére. Célunk a gyors hibaelhárítás, korrekt árakon, felesleges várakozás
-            nélkül.
-        </p>
-        <p>Emellett vállaljuk - rövid határidővel - lakás teljes villamos hálózatának felújítását, kiépítését. Vagy akár egy adott vezetékszakasz cseréjét, bővítését is. Legyen szó új áramkörök kiépítéséről, vagy elektromos készülékek (pl. főzőlap, sütő) garanciális bekötéséről, számíthat ránk!
-        </p>
+            nélkül.</p>
+        <p>Emellett vállaljuk - rövid határidővel - lakás teljes villamos hálózatának felújítását, kiépítését. Vagy akár egy adott vezetékszakasz cseréjét, bővítését is. Legyen szó új áramkörök kiépítéséről, vagy elektromos készülékek (pl. főzőlap, sütő) garanciális bekötéséről, számíthat ránk!</p>
 
         <h2>Szolgáltatásaink</h2>
         <div class="services">
@@ -257,7 +262,7 @@
     <h2>Árlista – Villanyszerelés Gyorsszerviz</h2>
     <p>Az alábbi árak <strong>anyagköltség nélkül</strong> értendők, és tartalmazzák a kiérkezéstől számítottan 1 óra munka díját. Minden további megkezdett óra 10 000 Ft. Az anyagköltség a hiba jellegétől függ. Erről pontos tájékoztatást az előzetes telefonos egyeztetéskor, vagy a helyszíni szemle során tudunk adni.</p>
 
-    <div class="services">
+    <div class="prices">
         <ul class="prices">
             <li>⏱️ Kiszállás és hibakeresés - <strong>hétköznap</strong> 8:00-20:00 között: <strong>15.000 Ft</strong></li>
             <li>⏱️ Kiszállás és hibakeresés - <strong>hétvégén és ünnepnapokon</strong> 8:00-20:00 között: <strong>20.000 Ft</strong></li>
@@ -265,12 +270,6 @@
             <li>⏱️ Elektromos főzőlap, sütő garanciális bekötése: <strong>15.000 Ft</strong></li>
             
         </ul>
-        <!-- <div class="card">🔌 Kiszállási díj (Budapest):<br><strong>10 000 Ft-tól</strong></div>
-        <div class="card">⚡ Gyors hibaelhárítás:<br><strong>12 000 Ft / óra</strong></div>
-        <div class="card">💡 Lámpa, kapcsoló csere:<br><strong>8 000 Ft-tól</strong></div>
-        <div class="card">🧯 Biztosíték, zárlat javítás:<br><strong>10 000 Ft-tól</strong></div>
-        <div class="card">🏠 Lakossági villanyszerelés:<br><strong>egyedi árajánlat</strong></div>
-        <div class="card">⏱️ Gyorsszolgálat (8–20):<br><strong>felár nélkül</strong></div> -->
     </div>
 </section>
     
